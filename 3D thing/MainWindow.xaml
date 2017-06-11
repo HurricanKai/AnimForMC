@@ -18,9 +18,8 @@
 			</TransformGroup>
 		</Grid.RenderTransform>
 		<h:HelixViewport3D x:Name="viewPort3d" ZoomExtentsWhenLoaded="true">
-			<!-- Remember to add light to the scene -->
 			<h:SunLight/>
-			<h:GridLinesVisual3D Width="8" Length="8" MinorDistance="1" MajorDistance="1" Thickness="0.01"/>
+			<h:GridLinesVisual3D Width="10" Length="10" MinorDistance="1" MajorDistance="1" Thickness="0.01" Fill="#FF7F8181"/>
 			<ModelVisual3D x:Name="Models"/>
 		</h:HelixViewport3D>
 	</Grid>

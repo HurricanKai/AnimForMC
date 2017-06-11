@@ -24,7 +24,7 @@ namespace _3D_thing
 	{
 		public MainWindow()
 		{
-			const string MODEL_PATH = "C:\\Users\\Kai\\Documents\\Cube.obj";
+			const string MODEL_PATH = @"./cube.obj";
 			InitializeComponent();
 			ModelVisual3D device3D = new ModelVisual3D();
 			device3D.Content = Display3d(MODEL_PATH);
